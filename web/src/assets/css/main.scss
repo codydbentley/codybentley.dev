@@ -1,0 +1,116 @@
+// variables
+@import 'variables';
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font-sans-serif;
+  background: white;
+  color: $dark-primary-4;
+  font-size: 16px;
+  line-height: 24px;
+  @media (min-width: 768px) {
+    font-size: 18px;
+    line-height: 30px;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 20px 0;
+  font-family: $font-code;
+  font-weight: 600;
+}
+
+h2, h3 {
+  font-weight: 400;
+  &:before {
+    color: $color-primary-0;
+  }
+}
+
+h2:before {
+  font-size: 1.5rem;
+  content: "$ cd";
+  margin: 0 9px 0 0;
+  @media (min-width: 768px) {
+    margin: 0 9px 0 -61px;
+  }
+}
+
+h3:before {
+  font-size: 1.4rem;
+  content: "$ cat";
+  margin: 0 9px 0 0;
+  @media (min-width: 768px) {
+    margin: 0 9px 0 -70px;
+  }
+}
+
+h5, h6 {
+  font-family: $font-sans-serif;
+}
+
+section {
+  margin: 20px 0;
+}
+
+article {
+  margin: 40px 0;
+}
+
+.code {
+  font-size: 0.9rem;
+  line-height: 1.4rem;
+  padding: 10px 20px;
+  background: lighten($dark-primary-1, 70%);
+  font-family: $font-monospace;
+  //font-weight: 600;
+  &.inline {
+    padding: 0;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: $color-primary-4;
+}
+
+/* Enter and leave animations can use different */
+/* durations and timing functions.              */
+.slide-fade-enter-active {
+  transition: all 0.1s ease-out;
+}
+
+.slide-fade-leave-active {
+  transition: all 0.1s cubic-bezier(1, 0.5, 0.8, 1);
+}
+
+.slide-fade-enter-from {
+  transform: translateX(20px);
+  opacity: 0;
+}
+
+.slide-fade-leave-to {
+  transform: translateX(-20px);
+  opacity: 0;
+}
+
+.fade-enter-active {
+  transition: all 100ms ease-out;
+}
+
+.fade-leave-active {
+  transition: all 100ms ease-in;
+}
+
+.fade-enter-from {
+  opacity: 0;
+}
+
+.fade-leave-to {
+  opacity: 0;
+}
