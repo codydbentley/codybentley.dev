@@ -50,7 +50,7 @@ import PageHeader from '@/components/PageHeader.vue'
 
 export default defineComponent({
   name: 'Style',
-  components: { PageHeader },
+  components: { PageHeader }
 })
 </script>
 

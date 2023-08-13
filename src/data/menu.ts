@@ -20,19 +20,19 @@ export default [
       {
         name: 'README.md',
         href: '#readme.md',
-        icon: 'description',
+        icon: 'description'
       },
       {
         name: 'TechStack.dat',
         href: '#techstack.dat',
-        icon: 'save',
+        icon: 'save'
       },
       {
         name: 'Interests.json',
         href: '#interests.json',
-        icon: 'code',
-      },
-    ],
+        icon: 'code'
+      }
+    ]
   },
   {
     name: 'Experience',
@@ -42,18 +42,18 @@ export default [
       {
         name: 'Worker.exe',
         href: '#worker.exe',
-        icon: 'computer',
+        icon: 'computer'
       },
       {
         name: 'Projects.md',
         href: '#projects.md',
-        icon: 'description',
+        icon: 'description'
       },
       {
         name: 'Gitlab',
         href: 'https://gitlab.com/codydbentley',
-        icon: 'code',
-      },
-    ],
-  },
+        icon: 'code'
+      }
+    ]
+  }
 ] as Section[]

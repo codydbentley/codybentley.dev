@@ -58,9 +58,9 @@ export default defineComponent({
       menu: Menu,
       active,
       activeClass,
-      toggleNav,
+      toggleNav
     }
-  },
+  }
 })
 </script>
 
@@ -119,7 +119,9 @@ $speed: 350ms;
     max-width: 96px;
     border-radius: 1000px;
     border: 2px solid lighten($color-primary-1, 10%);
-    transition: max-width $speed ease, margin-right $speed ease;
+    transition:
+      max-width $speed ease,
+      margin-right $speed ease;
     @media (max-width: $breakpoint) {
       max-width: 60px;
       margin-right: -105px;
@@ -166,7 +168,9 @@ $speed: 350ms;
     &:hover {
       color: white;
       transform: scale(1.2);
-      transition: transform 250ms ease, color 250ms ease-out;
+      transition:
+        transform 250ms ease,
+        color 250ms ease-out;
     }
   }
   ul {

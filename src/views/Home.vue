@@ -105,9 +105,9 @@ export default defineComponent({
       techStack: Tech,
       interestsJson: JSON.stringify(Interests, null, 2),
       workExperience: Work,
-      projects: Projects,
+      projects: Projects
     }
-  },
+  }
 })
 </script>
 

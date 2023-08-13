@@ -8,5 +8,5 @@ export default [
   { name: 'Rust', type: 'language' },
   { name: 'Design Patterns', type: 'concept' },
   { name: 'Protocols', type: 'concept' },
-  { name: 'Motorcycles', type: 'hobby' },
+  { name: 'Motorcycles', type: 'hobby' }
 ] as Interest[]

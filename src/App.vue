@@ -11,14 +11,15 @@
 </template>
 
 <script>
-import Sidenav from '@/components/Sidenav'
-import Footer from '@/components/Footer'
+import Sidenav from '@/components/Sidenav.vue'
+import Footer from '@/components/Footer.vue'
+
 export default {
   components: { Footer, Sidenav },
   setup() {
     document.title = 'Cody Bentley'
     return {}
-  },
+  }
 }
 </script>
 

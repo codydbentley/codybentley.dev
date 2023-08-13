@@ -29,17 +29,17 @@ export default [
         stack: [
           {
             name: 'Golang',
-            type: 'Language',
+            type: 'Language'
           },
           {
             name: 'TCP Sockets',
-            type: 'Protocol',
+            type: 'Protocol'
           },
           {
             name: 'Fyne.io',
-            type: 'UI Framework',
-          },
-        ],
+            type: 'UI Framework'
+          }
+        ]
       },
       {
         title: 'Medical Patient Records Tool',
@@ -52,25 +52,25 @@ export default [
         stack: [
           {
             name: 'Golang',
-            type: 'Language',
+            type: 'Language'
           },
           {
             name: 'Javascript',
-            type: 'Language',
+            type: 'Language'
           },
           {
             name: 'SQLite',
-            type: 'Database',
+            type: 'Database'
           },
           {
             name: 'Electron',
-            type: 'UI Framework',
+            type: 'UI Framework'
           },
           {
             name: 'RSAP',
-            type: 'Msg Protocol',
-          },
-        ],
+            type: 'Msg Protocol'
+          }
+        ]
       },
       {
         title: 'Customer Rewards Email Sync',
@@ -81,17 +81,17 @@ export default [
         stack: [
           {
             name: 'Golang',
-            type: 'Language',
+            type: 'Language'
           },
           {
             name: 'JSON API',
-            type: 'Communication',
+            type: 'Communication'
           },
           {
             name: 'CSV',
-            type: 'FORMAT',
-          },
-        ],
+            type: 'FORMAT'
+          }
+        ]
       },
       {
         title: 'React Based Corporate Site',
@@ -101,17 +101,17 @@ export default [
         stack: [
           {
             name: 'Javascript',
-            type: 'Language',
+            type: 'Language'
           },
           {
             name: 'ReactJS',
-            type: 'Library',
+            type: 'Library'
           },
           {
             name: 'GatsbyJS',
-            type: 'Framework',
-          },
-        ],
+            type: 'Framework'
+          }
+        ]
       },
       {
         title: 'Application Messaging Protocol',
@@ -124,23 +124,23 @@ export default [
         stack: [
           {
             name: 'Golang',
-            type: 'Language',
+            type: 'Language'
           },
           {
             name: 'Typescript',
-            type: 'Language',
+            type: 'Language'
           },
           {
             name: 'Win-IO',
-            type: 'Library',
+            type: 'Library'
           },
           {
             name: 'Electron',
-            type: 'Framework',
-          },
-        ],
-      },
-    ],
+            type: 'Framework'
+          }
+        ]
+      }
+    ]
   },
   {
     name: 'Zing Studios',
@@ -156,25 +156,25 @@ export default [
         stack: [
           {
             name: 'Golang',
-            type: 'Language',
+            type: 'Language'
           },
           {
             name: 'PHP',
-            type: 'Language',
+            type: 'Language'
           },
           {
             name: 'C#',
-            type: 'Language',
+            type: 'Language'
           },
           {
             name: 'Symfony',
-            type: 'Framework',
+            type: 'Framework'
           },
           {
             name: 'GeoTab',
-            type: 'API Service',
-          },
-        ],
+            type: 'API Service'
+          }
+        ]
       },
       {
         title: 'Synced Email Communication Dashboard',
@@ -186,29 +186,29 @@ export default [
         stack: [
           {
             name: 'PHP',
-            type: 'Language',
+            type: 'Language'
           },
           {
             name: 'Javascript',
-            type: 'Language',
+            type: 'Language'
           },
           {
             name: 'MySQL',
-            type: 'Database',
+            type: 'Database'
           },
           {
             name: 'jQuery',
-            type: 'Library',
+            type: 'Library'
           },
           {
             name: 'Symfony',
-            type: 'Framework',
+            type: 'Framework'
           },
           {
             name: 'SendGrid',
-            type: 'API Service',
-          },
-        ],
+            type: 'API Service'
+          }
+        ]
       },
       {
         title: 'Online Meal Ordering System',
@@ -220,29 +220,29 @@ export default [
         stack: [
           {
             name: 'PHP',
-            type: 'Language',
+            type: 'Language'
           },
           {
             name: 'Javascript',
-            type: 'Language',
+            type: 'Language'
           },
           {
             name: 'C#',
-            type: 'Language',
+            type: 'Language'
           },
           {
             name: 'MSSQL',
-            type: 'Database',
+            type: 'Database'
           },
           {
             name: 'Symfony',
-            type: 'Framework',
+            type: 'Framework'
           },
           {
             name: 'VueJS',
-            type: 'Framework',
-          },
-        ],
+            type: 'Framework'
+          }
+        ]
       },
       {
         title: 'Corporate WP to React Site',
@@ -253,17 +253,17 @@ export default [
         stack: [
           {
             name: 'Javascript',
-            type: 'Language',
+            type: 'Language'
           },
           {
             name: 'ReactJS',
-            type: 'Library',
+            type: 'Library'
           },
           {
             name: 'GatsbyJS',
-            type: 'Framework',
-          },
-        ],
+            type: 'Framework'
+          }
+        ]
       },
       {
         title: 'Online PDF Editor',
@@ -275,27 +275,27 @@ export default [
         stack: [
           {
             name: 'PHP',
-            type: 'Language',
+            type: 'Language'
           },
           {
             name: 'Javascript',
-            type: 'Language',
+            type: 'Language'
           },
           {
             name: 'MySQL',
-            type: 'Database',
+            type: 'Database'
           },
           {
             name: 'VueJS',
-            type: 'Framework',
+            type: 'Framework'
           },
           {
             name: 'JSON API',
-            type: 'Communication',
-          },
-        ],
-      },
-    ],
+            type: 'Communication'
+          }
+        ]
+      }
+    ]
   },
   {
     name: 'UNITI Global',
@@ -310,21 +310,21 @@ export default [
         stack: [
           {
             name: 'PHP',
-            type: 'Language',
+            type: 'Language'
           },
           {
             name: 'Javascript',
-            type: 'Language',
+            type: 'Language'
           },
           {
             name: 'MySQL',
-            type: 'Database',
+            type: 'Database'
           },
           {
             name: 'jQuery',
-            type: 'Library',
-          },
-        ],
+            type: 'Library'
+          }
+        ]
       },
       {
         title: 'Realtime Marketplace',
@@ -336,25 +336,25 @@ export default [
         stack: [
           {
             name: 'PHP',
-            type: 'Language',
+            type: 'Language'
           },
           {
             name: 'Javascript',
-            type: 'Language',
+            type: 'Language'
           },
           {
             name: 'MySQL',
-            type: 'Database',
+            type: 'Database'
           },
           {
             name: 'Redis',
-            type: 'Memory Store',
+            type: 'Memory Store'
           },
           {
             name: 'VueJS',
-            type: 'Framework',
-          },
-        ],
+            type: 'Framework'
+          }
+        ]
       },
       {
         title: 'Complete System Rewrite',
@@ -366,30 +366,30 @@ export default [
         stack: [
           {
             name: 'Golang',
-            type: 'Language',
+            type: 'Language'
           },
           {
             name: 'Javascript',
-            type: 'Language',
+            type: 'Language'
           },
           {
             name: 'Postgres',
-            type: 'Database',
+            type: 'Database'
           },
           {
             name: 'VueJS',
-            type: 'Framework',
+            type: 'Framework'
           },
           {
             name: 'Gin',
-            type: 'Framework',
+            type: 'Framework'
           },
           {
             name: 'Gorm',
-            type: 'Library',
-          },
-        ],
-      },
-    ],
-  },
+            type: 'Library'
+          }
+        ]
+      }
+    ]
+  }
 ] as Job[]

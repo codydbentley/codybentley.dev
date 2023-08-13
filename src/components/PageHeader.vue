@@ -11,7 +11,7 @@ import { defineComponent } from 'vue'
 
 export default defineComponent({
   name: 'PageHeader',
-  props: ['title', 'subtitle'],
+  props: ['title', 'subtitle']
 })
 </script>
 
